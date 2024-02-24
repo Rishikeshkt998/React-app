@@ -1,0 +1,21 @@
+.headerContainer {
+  position: fixed;
+  display: flex;
+  background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  width: 100%;
+
+  a {
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+    padding: 14px;
+    margin-left: 10px;
+    transition: 0.4s;
+
+    &:hover {
+      transform: scale(1.2);
+    }
+  }
+}
